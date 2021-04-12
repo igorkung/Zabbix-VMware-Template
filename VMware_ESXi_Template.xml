@@ -4,7 +4,7 @@
     <date>2021-04-12T12:37:58Z</date>
     <groups>
         <group>
-            <name>IS_hypervisor</name>
+            <name>ESXi_server</name>
         </group>
     </groups>
     <templates>
@@ -17,7 +17,7 @@ Macros:&#13;
 {$SNMP_PORT} = 161</description>
             <groups>
                 <group>
-                    <name>IS_hypervisor</name>
+                    <name>ESXi_server</name>
                 </group>
             </groups>
             <applications>
