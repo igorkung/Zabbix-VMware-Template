@@ -58,16 +58,7 @@ Macros:&#13;
                             <name>Time</name>
                         </application>
                     </applications>
-                    <triggers>
-                        <trigger>
-                            <expression>{time()}=0</expression>
-                            <name>Time diff between {HOST.NAME} and Radar 10с.</name>
-                            <status>DISABLED</status>
-                            <priority>INFO</priority>
-                            <description>Триггер срабатывает, если разница локального UTC хоста и локального UTC radar больше 10 секунд.</description>
-                        </trigger>
-                    </triggers>
-                </item>
+                  </item>
                 <item>
                     <name>Device name</name>
                     <type>SNMPV2</type>
