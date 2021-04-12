@@ -11,9 +11,8 @@
         <template>
             <template>Custom SNMP OS ESXi</template>
             <name>Custom SNMP OS ESXi</name>
-            <description>Порезанный шаблон (Template Custom SNMP OS ESXi).&#13;
-Мониторинг гипревизора по SNMP.&#13;
-макросы:&#13;
+            <description>Мониторинг гипревизора по SNMP.&#13;
+Macros:&#13;
 {$SNMP_COMMUNITY} = public&#13;
 {$SNMP_PORT} = 161</description>
             <groups>
